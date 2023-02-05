@@ -2,6 +2,8 @@
 const {hash} = require('../../helper/utilities');
 const data = require('../../lib/data');
 
+const nothing = 5;
+
 const handler = {};
 
 handler.userHandler = (requestedProperties,callback)=>{
